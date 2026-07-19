@@ -1,0 +1,20 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/SeleniumTest.java",
+      "testCases": [
+        {
+          "methodName": "testClickErrorButton",
+          "label": "Verify error button click behavior",
+          "description": "Finds the element with id 'errorButton', clicks it, and asserts that the 'monitor' element displays the expected error-handling text."
+        },
+        {
+          "methodName": "testClickNoErrorButton",
+          "label": "Verify no-error button click behavior",
+          "description": "Finds the element with id 'noErrorButton', clicks it, and asserts that the 'monitor' element displays the expected text for a successful click with no errors."
+        }
+      ]
+    }
+  ]
+}
